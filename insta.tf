@@ -1,6 +1,6 @@
 resource "aws_instance" "instance1" {
   ami                         = "ami-03ed1381c73a5660e"
-  instance_type               = "t2.small"
+  instance_type               = "t2.micro"
   count                       = 1
   key_name                    = "krish"
   vpc_security_group_ids     = ["sg-06751d2bc69d6b98b"]
